@@ -1,0 +1,173 @@
+/* body
+{
+    width: 100%;
+}
+.header
+{
+    width: 100%;
+    background-color: #005c64;
+    color: white;
+}
+.header div
+{
+    padding: 0%;
+    background-color: #005c64;
+}
+.footer
+{
+    width: 100%;
+    background-color: #005c64;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    
+}
+.logo
+{
+    height: 150px;
+    width: 150px;
+    padding-left: 10px;
+}
+.mlogo
+{
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+}
+.header1
+{
+    font-size: 80px;
+}
+.header2
+{
+    font-size: 40px;
+}
+.footer1
+{
+    font-size: 25px;
+}
+button
+{
+    border-style: none;
+    border: 2px solid;
+    border-radius: 45px;
+    border-color: #005c64;
+    background-color: #005c64;
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 70px;
+}
+.button
+{
+    padding-top: 150px;
+}
+.button + .button
+{
+    padding-top: 50px;
+}
+.button + .button > a > button
+{
+    font-size: 30px;
+} */
+
+html, body
+{
+    height:100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+
+header
+{
+    height: 20%;
+}
+
+.img-header 
+{
+    width:100%;
+    height:100%;
+
+    object-fit: contain;
+}
+
+
+.color-uc
+{
+    background-color: rgb(1, 92, 99);
+}
+
+.img-centered
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.main-container
+{
+    background-image: url("../img/main_background.png");
+    height:100%;
+}
+
+
+.button-container
+{
+    width: fit-content;
+}
+
+
+.btn
+{
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(42, 118, 123);
+
+    /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); */
+    
+    font-weight: 500;
+    
+}
+
+.text-white
+{
+    color: white;
+}
+
+.img-btn
+{
+    width: 30%;
+    max-width: 100px;
+}
+
+.footer
+{
+    height: 10%;
+}
+
+.img-footer
+{
+    /* max-height: 3rem; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text-footer
+{
+    text-align: center;
+    
+    color: white;
+    font-weight: 500;
+}
